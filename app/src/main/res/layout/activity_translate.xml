@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="영어"
+            android:textSize="45dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="70dp"></TextView>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/arraw_forward"></ImageView>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="한글"
+            android:textSize="45dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/stroke"
+            android:id="@+id/ocr_result"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@color/colorPrimarylight"
+            android:textColor="@color/white"
+            android:id="@+id/translate_result"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/refreshbtn"
+            android:id="@+id/translate_btn"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="단어장에 추가>"
+            android:textSize="17dp"
+            android:textColor="@color/darkGrey"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/go_word_btn"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+<!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:id="@+id/ocr_result"
+            android:text="Ocr Result! "/>
+
+        <EditText android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:id="@+id/translate_result"
+            android:text="Translate Result! "/>
+
+        <EditText android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:id="@+id/test_result"
+            android:text="word Result! "/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:background="@drawable/translatebtn"
+            android:id="@+id/translate_btn"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:text = "Word BOOK"
+            android:textSize="40sp"
+            android:id="@+id/go_word_btn"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+-->

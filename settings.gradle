@@ -1,0 +1,2 @@
+rootProject.name='smuOCR'
+include ':app', ':opencv'
